@@ -1,0 +1,1 @@
+.flip-container{-webkit-perspective:1000}.flipper{-webkit-transition:.6s;-webkit-transform-style:preserve-3d;position:relative}.front,.back{-webkit-backface-visibility:hidden;position:absolute;top:0;left:0}.front{z-index:2}.back{-webkit-transform:rotateY(180deg)}.flip-container.flip .flipper{-webkit-transform:rotateY(180deg)}

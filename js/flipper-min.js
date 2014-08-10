@@ -1,0 +1,1 @@
+(function(a){a.fn.flipper=function(){this.filter(".flip-container").each(function(){var e=a(this);var c=e.children(".flipper");var d=c.children(".front").width();var f=c.children(".back").width();var b=e.hasClass("flip")?d:f;c.width(b);e.toggleClass("flip")});return this}}(jQuery));
